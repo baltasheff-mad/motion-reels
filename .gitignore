@@ -1,0 +1,69 @@
+node_modules/
+out/
+output.mp4
+*.[Mm][Pp]4
+*.[Ww][Ee][Bb][Mm]
+*.[Mm][Oo][Vv]
+*.[Mm]4[Aa]
+*.[Mm][Pp]3
+*.[Ww][Aa][Vv]
+*.[Aa][Aa][Cc]
+public/snapshots/
+public/fonts/
+.DS_Store
+
+# Windows NTFS alternate data stream artifacts
+*:Zone.Identifier
+
+# Local environments, caches, and generated render artifacts
+.env
+.env.*
+!.env.example
+**/.venv*/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.cache/
+**/.next/
+**/.turbo/
+**/dist/
+**/build/
+**/.thumbnails/
+**/.waveform-cache/
+**/.media/
+**/renders/
+
+# Local visual probes. Keep only explicitly tracked final QA sheets.
+videos/**/qa/*/
+videos/**/qa/*.png
+
+# User media is supplied locally and must not enter Git history
+videos/**/media/
+videos/**/assets/source-clip*
+
+# Local credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+.npmrc
+.pypirc
+.netrc
+id_rsa*
+id_ed25519*
+credentials/
+secrets/
+
+# Полные логи рендера и QA: только локально, агенту не нужны
+logs/
+!logs/.gitkeep
+
+# Студия Remotion: звуки, шрифты и настройки npm — часть репозитория (без них студия не собирается)
+!studio/public/sfx/*.wav
+!studio/public/fonts/
+!studio/.npmrc
+# записи владельца в студии — только локально
+studio/public/projects/
