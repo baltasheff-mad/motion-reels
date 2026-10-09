@@ -2,7 +2,6 @@
 
 Автоматизированный монтаж видео для Reels, Shorts и TikTok с помощью ИИ.
 Субтитры, анимации, переходы и визуальные эффекты с использованием Codex, Remotion и FFmpeg.
-Версия Мадияра для своего контента и обучения монтажу.
 
 Основа: [Reels Pipeline Automontaj](https://github.com/saint4ai/reels-pipline-automotaj),
 автор исходного метода и реализации: onAI Academy, [@saint4ai](https://instagram.com/saint4ai).
